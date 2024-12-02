@@ -1,5 +1,5 @@
 #read input 
-file = open("day1-input.txt", "r")
+file = open("day1_input.txt", "r")
 content = file.readlines()
 file.close()
 
