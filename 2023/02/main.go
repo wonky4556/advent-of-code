@@ -104,7 +104,7 @@ func validGame(gameDraws []map[string]int) bool {
 }
 
 func readFile() {
-	file, err := os.Open("input.txt")
+	file, err := os.Open("_input.txt")
 	if err != nil {
 		panic(err)
 	}

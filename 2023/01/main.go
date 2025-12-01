@@ -116,7 +116,7 @@ func solvePart1() {
 }
 
 func readFile() {
-	file, err := os.Open("input.txt")
+	file, err := os.Open("_input.txt")
 	if err != nil {
 		panic(err)
 	}
